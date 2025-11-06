@@ -1,73 +1,121 @@
-# Welcome to your Lovable project
+# RVITM CubeVerse 2025
 
-## Project info
+Official website for RVITM CubeVerse 2025 - A World Cube Association (WCA) recognized speedcubing competition in Bengaluru, India.
 
-**URL**: https://lovable.dev/projects/d6312e74-f3f2-48af-afcc-27226ca32474
+## 🎯 Event Details
 
-## How can I edit this code?
+- **Date:** November 29-30, 2025
+- **Venue:** RV Institute of Technology and Management, Bengaluru
+- **Competitor Limit:** 120
+- **Registration Fee:** ₹1,000 (1-4 events) | ₹1,500 (5-8 events)
 
-There are several ways of editing your application.
+## 🚀 Quick Start
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d6312e74-f3f2-48af-afcc-27226ca32474) and start prompting.
+- Node.js (v16 or higher)
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd rvitm-cubeverse-2025
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Tech Stack
 
-**Use GitHub Codespaces**
+- **Framework:** React 18 with TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Routing:** React Router DOM
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Build for Production
 
-## What technologies are used for this project?
+```bash
+# Create production build
+npm run build
 
-This project is built with:
+# Preview production build locally
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deployment
 
-## How can I deploy this project?
+### Deploy to Vercel (Recommended)
 
-Simply open [Lovable](https://lovable.dev/projects/d6312e74-f3f2-48af-afcc-27226ca32474) and click on Share -> Publish.
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Vercel will auto-detect the Vite configuration
+4. Click "Deploy"
 
-## Can I connect a custom domain to my Lovable project?
+Alternatively, use the Vercel CLI:
 
-Yes, you can!
+```bash
+# Install Vercel CLI
+npm install -g vercel
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Deploy
+vercel
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Deploy to Netlify
+
+1. Build the project: `npm run build`
+2. Drag and drop the `dist` folder to Netlify
+3. Or connect your GitHub repository in Netlify dashboard
+
+### Deploy to Other Platforms
+
+The `dist` folder contains all static files needed for deployment. You can deploy to:
+- AWS S3 + CloudFront
+- GitHub Pages
+- Firebase Hosting
+- Any static hosting service
+
+## 🎨 Features
+
+- ✅ Responsive design for all devices
+- ✅ Countdown timer to event date
+- ✅ Smooth scrolling navigation
+- ✅ SEO optimized with meta tags
+- ✅ Mobile-friendly navigation
+- ✅ Integrated payment link (Razorpay)
+- ✅ WCA regulation compliant information
+- ✅ Fade-in animations
+- ✅ Professional brand colors (Maroon #6B0D45, Blue #1E3A8A)
+
+## 🔗 Important Links
+
+- **WCA Competition Page:** https://www.worldcubeassociation.org/competitions/RVITMCubeVerse2025
+- **Payment Link:** https://pages.razorpay.com/pl_RZIOpv3dXxZ0Eg/view
+- **WCA Regulations:** https://www.worldcubeassociation.org/regulations/
+
+## 📝 License
+
+© 2025 RCA Speedcubing. All rights reserved.
+
+## 👥 Organizers
+
+- CubeX RVCE
+- RVITM Cubing Association
+- Speed Cubing Bangalore
+
+**WCA Delegate:** Sukesh Kumar
+
+---
+
+For any queries regarding the competition, please contact the organization team through the WCA competition page.
