@@ -28,141 +28,89 @@ const Refund = () => {
 
           <div className="prose prose-lg max-w-none text-foreground/90 space-y-6">
             <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">1. Registration Fee</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">No Refund Policy</h2>
+              <p className="text-lg leading-relaxed">
+                <strong>All registration fees for RVITM CubeVerse 2025 are non-refundable.</strong>
+              </p>
+              <p className="mt-4">
+                Once you have completed your registration and payment, the fees cannot be refunded under any circumstances, including but not limited to:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 mt-4">
+                <li>Personal reasons or change of plans</li>
+                <li>Inability to attend the competition</li>
+                <li>Disqualification due to violation of WCA regulations or event rules</li>
+                <li>Voluntary withdrawal before or on the day of the competition</li>
+                <li>Waitlist placement (if competition reaches capacity)</li>
+              </ul>
+            </section>
+
+            <section className="mt-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Registration Fee</h2>
               <p>
                 The registration fee for RVITM CubeVerse 2025 is:
               </p>
-              <ul className="list-disc pl-6 space-y-2">
+              <ul className="list-disc pl-6 space-y-2 mt-4">
                 <li>₹1,000 for 1-4 events</li>
                 <li>₹1,500 for 5-8 events</li>
               </ul>
               <p className="mt-4">
-                Payment must be completed through the official Razorpay payment link to confirm your registration.
+                Payment must be completed through the official Razorpay payment link to confirm your registration. Once payment is made, it is final and non-refundable.
               </p>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">2. Cancellation by Participant</h2>
+            <section className="mt-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Payment Disclaimer</h2>
               <p>
-                If you need to cancel your registration, the following policy applies:
+                By proceeding with the registration payment, you acknowledge and agree that:
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Before November 15, 2025:</strong> 80% refund of registration fee (20% processing fee deducted)</li>
-                <li><strong>November 15-22, 2025:</strong> 50% refund of registration fee</li>
-                <li><strong>After November 22, 2025:</strong> No refund available</li>
+              <ul className="list-disc pl-6 space-y-2 mt-4">
+                <li>You have read and understood this no-refund policy</li>
+                <li>The registration fee is non-refundable under all circumstances</li>
+                <li>You are committed to attending the competition on the scheduled dates</li>
+                <li>Any payment gateway charges are non-refundable</li>
+              </ul>
+            </section>
+
+            <section className="mt-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Payment Issues</h2>
+              <p>
+                In case of technical payment issues only:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 mt-4">
+                <li><strong>Duplicate payments:</strong> If you are charged multiple times for the same registration, the duplicate amount will be refunded</li>
+                <li><strong>Payment failed but amount debited:</strong> If the payment fails but the amount is debited from your account, it will be automatically refunded by the payment gateway within 5-7 business days</li>
               </ul>
               <p className="mt-4">
-                To request a cancellation, please email{" "}
-                <a href="mailto:cubing_rca.rvitm@rvei.edu.in" className="text-accent hover:underline">
-                  cubing_rca.rvitm@rvei.edu.in
-                </a>{" "}
-                with your WCA ID and payment confirmation details.
+                For payment-related issues, please contact us immediately with your transaction details.
               </p>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">3. Waitlist Policy</h2>
+            <section className="mt-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Contact Information</h2>
               <p>
-                If the competition reaches its capacity of 120 competitors:
+                For any queries regarding the refund policy or payment issues, please contact:
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Paid registrants will be placed on an official waitlist</li>
-                <li>If a spot becomes available, waitlisted competitors will be contacted in order</li>
-                <li>Waitlisted competitors who do not get a spot will receive a full refund within 15 business days after the competition</li>
-              </ul>
+              <div className="mt-4 space-y-2">
+                <p>
+                  <strong>Email:</strong>{" "}
+                  <a href="mailto:cubing_rca.rvitm@rvei.edu.in" className="text-accent hover:underline">
+                    cubing_rca.rvitm@rvei.edu.in
+                  </a>
+                </p>
+                <p>
+                  <strong>Phone:</strong>{" "}
+                  <a href="tel:+918073294215" className="text-accent hover:underline">
+                    +91-8073294215
+                  </a>
+                </p>
+              </div>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">4. Event Cancellation by Organizers</h2>
-              <p>
-                In the unlikely event that the competition is cancelled by the organizers due to:
+            <div className="mt-12 p-6 bg-muted/50 rounded-lg border border-border">
+              <p className="text-sm font-semibold text-foreground">
+                Important: Please ensure you are certain about your participation before making the payment, as all fees are non-refundable.
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Force majeure events (natural disasters, pandemics, etc.)</li>
-                <li>Insufficient registrations</li>
-                <li>Venue unavailability</li>
-                <li>Any other unforeseen circumstances</li>
-              </ul>
-              <p className="mt-4">
-                <strong>All registered participants will receive a full 100% refund</strong> of their registration fee within 30 business days of the cancellation announcement.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">5. Event Modifications</h2>
-              <p>
-                If there are changes to:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Competition dates (rescheduling)</li>
-                <li>Event lineup (removal of specific events)</li>
-                <li>Venue location</li>
-              </ul>
-              <p className="mt-4">
-                Participants will be notified immediately and will have the option to:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Continue with their registration for the modified competition, or</li>
-                <li>Request a full refund within 7 days of the notification</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">6. Refund Processing</h2>
-              <p>
-                Approved refunds will be processed as follows:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Refunds will be credited to the original payment method</li>
-                <li>Processing time: 7-15 business days from approval</li>
-                <li>Payment gateway charges (if any) are non-refundable</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">7. Non-Refundable Scenarios</h2>
-              <p>
-                Refunds will <strong>NOT</strong> be provided if:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>A competitor fails to attend the competition without prior cancellation</li>
-                <li>A competitor is disqualified due to violation of WCA regulations or event rules</li>
-                <li>A competitor voluntarily withdraws on the day of the competition</li>
-                <li>Registration is cancelled after the final deadline (November 22, 2025)</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">8. Payment Issues</h2>
-              <p>
-                If you experience payment issues:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Duplicate payments: Full refund of the duplicate amount</li>
-                <li>Payment failed but amount debited: Automatic refund within 5-7 business days</li>
-                <li>For any payment disputes, contact us with transaction details</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">9. Contact for Refunds</h2>
-              <p>
-                For all refund and cancellation requests, please contact:
-              </p>
-              <p className="mt-4">
-                Email: <a href="mailto:cubing_rca.rvitm@rvei.edu.in" className="text-accent hover:underline">cubing_rca.rvitm@rvei.edu.in</a><br />
-                Phone: <a href="tel:+918073294215" className="text-accent hover:underline">+91-8073294215</a>
-              </p>
-              <p className="mt-4">
-                Please include the following in your refund request:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Full name and WCA ID</li>
-                <li>Payment confirmation/transaction ID</li>
-                <li>Reason for cancellation</li>
-                <li>Bank account details for refund</li>
-              </ul>
-            </section>
+            </div>
 
             <p className="text-sm text-muted-foreground mt-8">
               Last updated: November 2024
